@@ -11,7 +11,11 @@ country1 = ["India", "Australia","Nepal","pAKISTAN"]
 list = []
 
 for x in country1:
-    if "a" in x:
+    if "A" in x:
         list.append(x)
         print(list)
 
+
+country1 = ["India", "Australia","Nepal","pAKISTAN"]
+newlist =  ["hello" for x in country1 ]
+print(newlist)

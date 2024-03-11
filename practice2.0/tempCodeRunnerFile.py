@@ -1,5 +1,4 @@
-def max_of_two(x,y):
-#     if(x>y):
-#         return x
-#     return y
-# print(max_of_two(2,5))
+
+# name = ["amit","sumit","shyam","vijay"]
+# name.sort()
+# print(name)
