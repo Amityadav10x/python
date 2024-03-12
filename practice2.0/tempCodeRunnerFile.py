@@ -1,4 +1,6 @@
+def reverse_list(lst):
+#     lst.reverse()
 
-# name = ["amit","sumit","shyam","vijay"]
-# name.sort()
-# print(name)
+# list1 = [2,3,4,564,34,334]
+# reverse_list = (list1)
+# print(list1)
