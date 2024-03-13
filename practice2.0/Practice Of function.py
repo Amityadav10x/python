@@ -64,3 +64,25 @@ print(my_list)
 my_list = [1,3,4,5,633,23,24]
 sorted_list_desc = sorted(my_list, reverse=True)
 print(sorted_list_desc)
+
+# 11. program to check leap_year
+
+def is_leap_year(year):
+
+     if year % 4 == 0:
+          if year % 100 == 0 :
+               if year % 400 == 0:
+                    return True
+               else:
+                    return False
+          else:
+               return True
+     else:
+          return False
+     
+year = 2021
+
+if is_leap_year(year):
+     print(f"{year} is a leap year")
+else:
+     print(f"{year} is not a leap year")
