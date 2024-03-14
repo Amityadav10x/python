@@ -8,13 +8,13 @@ def second_smallest(lst):
 
 print(second_smallest([10,12,13,14,15]))
 
-# third smallest element 
+# 2nd maximum
 
 def third_smallest(lst):
     Unique_sorted = sorted(set(lst))
     if len(Unique_sorted) < 3:
         return "list has fever than 3 element"
-    return Unique_sorted[2]
+    return Unique_sorted[-2]
 
 print(third_smallest([10,12,13,17,34]))
 
