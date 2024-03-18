@@ -1,9 +1,7 @@
+my_list = []
 
-def linear_search(arr,x,n):
-    for i in range(0,n):
-        if arr[i] == x:
-            return i
-    return -1
-    
-arr = [10,23,24,35,22,24,56,75,45]
-x = 75
+# for _ in range(10):
+#     element = int(input("Enter an element: "))
+#     my_list.append(element)
+
+# print("List after insertion:", my_list)
